@@ -171,6 +171,33 @@ The project includes testing documentation and artifacts demonstrating the testi
 These artifacts demonstrate the complete flow from test planning and test design through execution and defect reporting.
 
 ---
+## 🎥 Testing Process Demonstration
+
+The following demonstrations provide a practical view of the testing workflow implemented in this project, from test case preparation and import through test cycle execution.
+
+These videos demonstrate my hands-on experience with:
+
+- Test case preparation and management
+- CSV-based test case import
+- Test cycle creation and execution
+- Test step validation
+- Expected vs. actual result verification
+- Test status management
+- Defect identification and follow-up
+- Structured test documentation
+
+### 📹 Demo 1 – Test Case Import
+
+**Purpose:** Demonstrates how the prepared test cases were imported into the test management tool using a CSV file.
+
+[▶️ View Test Case Import Demonstration](Videos/01-Test-Case-Import-to-Zephyr.mp4)
+
+### 📹 Demo 2 – Test Cycle Execution
+
+**Purpose:** Demonstrates the execution of the prepared test cases within a test cycle, including validating test steps and recording execution results.
+
+[▶️ View Test Cycle Execution Demonstration](Videos/02-Test-Cycle-Execution-in-Zephyr.mp4)
+
 
 ## 🔄 Testing Workflow
 
