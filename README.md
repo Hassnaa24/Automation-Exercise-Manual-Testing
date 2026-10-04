@@ -2,11 +2,11 @@
 
 ## 📌 Project Overview
 
-This project demonstrates my practical experience in **Manual Software Testing** using the [Automation Exercise](https://automationexercise.com/) e-commerce website.
+This project demonstrates my practical experience in **Manual Software Testing** using the [Automation Exercise](https://automationexercise.com/) e-commerce web application.
 
-The project focuses on applying the Software Testing Life Cycle (STLC) to a real-world web application, from analyzing requirements and designing test scenarios to executing test cases, documenting results, and reporting defects.
+The project focuses on applying the **Software Testing Life Cycle (STLC)**, starting from analyzing the application and identifying test scenarios, through test case design and execution, to defect reporting and follow-up.
 
-The objective was to ensure that the application's key functionalities work as expected and to identify potential issues that could affect functionality, usability, and user experience.
+The main objective was to validate key application functionalities, identify potential defects, and ensure that the application behaves as expected from an end-user perspective.
 
 ---
 
@@ -14,21 +14,23 @@ The objective was to ensure that the application's key functionalities work as e
 
 The main objectives of this project were to:
 
-- Analyze the application's functionality and identify testable features.
+- Analyze application functionality and identify testable features.
 - Design clear and structured test scenarios and test cases.
+- Prepare appropriate test data.
 - Validate application behavior against expected results.
-- Perform different types of functional testing.
-- Identify and document defects clearly.
-- Verify actual results against expected results.
-- Perform regression testing after changes.
-- Organize and maintain testing documentation.
-- Gain practical experience following a structured testing process.
+- Execute functional and regression testing.
+- Perform positive and negative testing.
+- Identify and document defects.
+- Track test execution results.
+- Perform retesting of corrected functionality.
+- Maintain structured and traceable testing documentation.
+- Apply a structured testing process based on STLC principles.
 
 ---
 
 ## 🧪 Testing Scope
 
-The testing activities covered several key areas of the Automation Exercise website, including:
+The testing activities covered several key areas of the Automation Exercise application, including:
 
 - User Registration
 - User Login
@@ -41,36 +43,39 @@ The testing activities covered several key areas of the Automation Exercise webs
 - Product Review
 - User Account-related workflows
 
-The project focused on validating both positive and negative scenarios to ensure that the application behaves correctly under different conditions.
+The test scenarios included both **positive and negative test cases** to validate application behavior under different conditions.
 
 ---
 
 ## 🔍 Testing Types
 
-The following testing techniques were applied during the project:
-
 ### Functional Testing
-Verified that application features work according to their expected behavior.
+
+Verified that application functionalities behave according to their expected requirements and behavior.
 
 ### Smoke Testing
-Performed basic checks to verify that the main application functionalities were stable enough for further testing.
+
+Performed basic checks of critical application functionalities to determine whether the application was stable enough for further testing.
 
 ### Sanity Testing
-Performed focused verification of specific functionality after changes or fixes.
+
+Performed focused verification of specific functionality following changes or fixes.
 
 ### Regression Testing
-Re-executed relevant test cases to ensure that existing functionality was not negatively affected by changes.
+
+Re-executed relevant test cases to verify that existing functionality was not negatively affected by changes.
 
 ### Negative Testing
-Tested invalid inputs and unexpected user actions to verify that the application handles them appropriately.
+
+Validated application behavior using invalid inputs and unexpected user actions.
 
 ---
 
 ## 📝 Test Case Design
 
-Test cases were designed with a structured approach to make them clear, traceable, and easy to execute.
+Test cases were designed using a structured approach to ensure that they were clear, traceable, and easy to execute.
 
-Each test case includes relevant information such as:
+Test cases include information such as:
 
 - Test Case ID
 - Test Scenario
@@ -81,13 +86,13 @@ Each test case includes relevant information such as:
 - Actual Result
 - Test Status
 
-The test cases were designed to cover both positive and negative scenarios.
+Both positive and negative scenarios were considered during test case design.
 
 ---
 
 ## 🐞 Defect Reporting
 
-During test execution, identified issues were documented with clear and reproducible information.
+Identified issues were documented using clear and reproducible defect reports.
 
 Defect documentation includes information such as:
 
@@ -101,24 +106,25 @@ Defect documentation includes information such as:
 - Priority
 - Defect Status
 
-The purpose was to make each reported issue easy for developers and other team members to understand, reproduce, and investigate.
+The objective was to provide sufficient information for the reported issue to be understood, reproduced, investigated, and followed up.
 
 ---
 
 ## 📊 Test Execution
 
-After preparing the test cases, the scenarios were executed against the application.
+After preparing the test cases and test data, the scenarios were executed against the application.
 
 The execution process involved:
 
 1. Reviewing the test scenario.
 2. Preparing the required test data.
 3. Executing the test steps.
-4. Comparing actual and expected results.
-5. Marking the test case as Pass or Fail.
-6. Documenting any identified defects.
-7. Re-testing corrected functionality where applicable.
+4. Comparing actual results with expected results.
+5. Marking test cases as Pass or Fail.
+6. Documenting identified defects.
+7. Retesting corrected functionality where applicable.
 8. Performing regression testing on affected areas.
+9. Recording and maintaining test execution results.
 
 ---
 
@@ -146,6 +152,8 @@ The execution process involved:
 - Zephyr
 - Test Case Management
 - Defect Tracking
+- Test Cycle Execution
+- CSV Test Case Import
 
 ### Other Skills
 
@@ -159,26 +167,29 @@ The execution process involved:
 
 ## 📂 Project Deliverables
 
-The project includes testing documentation and artifacts demonstrating the testing process, including:
+The repository contains testing artifacts demonstrating the testing process, including:
 
-- Test Scenarios
-- Test Cases
-- Test Data
-- Test Execution Results
-- Defect Reports
-- Testing Documentation
+- **Test Scenarios**
+- **Test Cases**
+- **Test Data**
+- **Test Execution Results**
+- **Defect Reports**
+- **Testing Evidence**
+- **Test Management Demonstrations**
 
-These artifacts demonstrate the complete flow from test planning and test design through execution and defect reporting.
+These artifacts demonstrate the testing workflow from test planning and test design through execution, defect reporting, and follow-up.
 
 ---
-## 🎥 Testing Process Demonstration
 
-The following demonstrations provide a practical view of the testing workflow implemented in this project, from test case preparation and import through test cycle execution.
+## 🎥 Testing Process Demonstrations
 
-These videos demonstrate my hands-on experience with:
+The following videos provide a practical demonstration of the testing workflow implemented in this project.
+
+They demonstrate hands-on experience with:
 
 - Test case preparation and management
 - CSV-based test case import
+- Test case organization
 - Test cycle creation and execution
 - Test step validation
 - Expected vs. actual result verification
@@ -186,18 +197,39 @@ These videos demonstrate my hands-on experience with:
 - Defect identification and follow-up
 - Structured test documentation
 
-### 📹 Demo 1 – Test Case Import
+### 📹 Demo 1 – Test Case Import to Zephyr
 
-**Purpose:** Demonstrates how the prepared test cases were imported into the test management tool using a CSV file.
+**Purpose:**  
+Demonstrates the process of importing the prepared test cases from a CSV file into the test management environment.
 
-[▶️ View Test Case Import Demonstration](Videos/01-Test-Case-Import-to-Zephyr.mp4)
+**Demonstrates:**
 
-### 📹 Demo 2 – Test Cycle Execution
+- Preparing test cases in CSV format
+- Importing test cases
+- Organizing test cases
+- Preparing test cases for execution
 
-**Purpose:** Demonstrates the execution of the prepared test cases within a test cycle, including validating test steps and recording execution results.
+▶️ [View Test Case Import Demonstration](Videos/01-Test-Case-Import-to-Zephyr.mp4)
 
-[▶️ View Test Cycle Execution Demonstration](Videos/02-Test-Cycle-Execution-in-Zephyr.mp4)
+---
 
+### 📹 Demo 2 – Test Cycle Execution in Zephyr
+
+**Purpose:**  
+Demonstrates the execution of the prepared test cases within a test cycle.
+
+**Demonstrates:**
+
+- Selecting test cases for execution
+- Executing test steps
+- Validating expected vs. actual results
+- Recording test execution status
+- Identifying failed test cases
+- Supporting defect reporting and follow-up
+
+▶️ [View Test Cycle Execution Demonstration](Videos/02-Test-Cycle-Execution-in-Zephyr.mp4)
+
+---
 
 ## 🔄 Testing Workflow
 
@@ -210,9 +242,11 @@ Test Case Design
         ↓
 Test Data Preparation
         ↓
+Test Case Management
+        ↓
 Test Execution
         ↓
-Expected vs. Actual Result
+Expected vs. Actual Result Verification
         ↓
 Defect Reporting
         ↓
